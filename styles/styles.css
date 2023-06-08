@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header li:nth-child(1) {
+    font-size: 24px;
+    color: #F9FAF8;
+    /*targets the header logo*/
+}
+
+
+.header li {
+    font-size: 18px;
+    color: #E5E7EB;
+    /*targets all but header logo in navbar*/
+}
+
+.signup-button,
+.signup-button-two {
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+small {
+    font-size: 28px;
+}
+
+.pop-up p {
+background-color: #3882F2;
+}
+
+.gallery h2{
+    font-size: 36px;
+    font-weight: bolder; 
+    color: #1F2937;
+}
