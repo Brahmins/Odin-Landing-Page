@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.signup-button,
+.signup-button-two {
+    background-color: #3882F6;
+    width: 100px;
+    height: 25px;
+    border-radius: 4px;
+    color: #E5E7EB;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.signup-button {
+border: #3882F6;
+}
+
+.signup-button-two {
+border: solid #E5E7EB 1px;
+}
+
+/*navbar*/
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 15px 10px;
+    padding: 0px 10px;
+}
+
+.header li:nth-child(1) {
+    flex: auto;
+    font-weight: bold;
+}
+
+/*navbar*/
+
+.header {
+    padding: 10px 150px;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+h1,
+.header li:nth-child(1) {
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header li:nth-child(1) {
+    font-size: 24px;
+    /*targets the header logo*/
+}
+
+
+.header li {
+    font-size: 18px;
+    /*targets all but header logo in navbar*/
+}
+
+.description,
+.header li,
+.pop-up,
+.footer {
+    color: #E5E7EB;
+}
+
+.footer {
+    padding: 25px;
+    text-align: center;
+}
+
+.image-container p,
+.image-container {
+    text-align: center;
+    padding: 5px;
+    /*do not edit; fixes alignment with
+    image and text*/
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p,
+.gallery h2 {
+    font-size: 36px;
+}
+
+small {
+    font-size: 28px;
+}
+
+.pop-up p {
+    background-color: #3882F2;
+}
+
+.gallery h2 {
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.square-1 {
+    width: 400px;
+    height: 200px;
+}
+
+.gallery h2 {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.image-gallery {
+    display: flex;
+    padding: 75px;
+}
+
+.square-group {
+    background-color: #3882F2;
+    border-radius: 10px;
+}
+
+.quote {
+    padding: 200px;
+}
+
+.quote-small-text {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.pop-up b {
+font-size: large;
+}
+
+.pop-up p {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*work on the header and alignment- fix h2,
+button, image in header below navbar*/
+
+
+.container-1 {
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+}
+
+/*fix up alignment of header section*/
+
+/*make website responsive*/
+
+.pop-up {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px;
+}

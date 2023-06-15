@@ -5,62 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intital-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="./styles/styles.css"/>
+    <link rel="stylesheet" href="./styles/styles.css" />
 </head>
 
 <body>
-    <div class="container">
-        <section class="header">
-            <navbar class="navbar">
-                <ul>
-                    <li><a href="#">Header Logo</a></li>
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">link two</a></li>
-                    <li><a href="#">link three</a></li>
-                </ul>
-            </navbar>
+    <section class="header">
+        <navbar class="navbar">
+            <ul>
+                <li><a href="#">Header Logo</a></li>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </navbar>
+        <div class="container-1">
+            <div class="container-1-contents">
             <h1>This website is awesome</h1>
-            <p>
+            <p class="description">
                 This website has some subtext that goes head
                 under the main title. It's smaller font and
                 the color is lower contrast.
             </p>
-            <div class="button-container">
-                <button class="signup-button">Sign up</button>
+            <button class="signup-button">Sign up</button>
             </div>
-            <img src="./images/Grey_Square.png" alt="A blank grey background">
-        </section>
-        <section class="gallery">
-            <h2>Some random information.</h2>
-            <div class="image-gallery">
-                <img src="/images/Grey_Square.png" alt="A blank grey sqaure." width="150px" height="150px">
-                <p>this is some subtext under an illustration or image</p>
-                <img src="/images/Grey_Square.png" alt="A blank grey sqaure." width="150px" height="150px">
-                <p>this is some subtext under an illustration or image</p>
-                <img src="/images/Grey_Square.png" alt="A blank grey sqaure." width="150px" height="150px">
-                <p>this is some subtext under an illustration or image</p>
-                <img src="/images/Grey_Square.png" alt="A blank grey sqaure." width="150px" height="150px">
+            <div class="image-1-container">
+                <img class="square-1" src="./images/Grey_Square.png" alt="A blank grey background">
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <h2>Some random information.</h2>
+        <div class="image-gallery">
+            <div class="image-container">
+                <img class="square-group" src="/images/Grey_Square.png" alt="A blank grey sqaure." width="150px"
+                    height="150px">
                 <p>this is some subtext under an illustration or image</p>
             </div>
-        </section>
-        <section class="quote">
-            <p>This is an inspiring quote, or a testimonial from a customer.
-                Maybe it's just filling up space, or maybe people will actaully
-                read it. Who knows? All I know is that it looks nice.
-            </p>
+            <div class="image-container">
+                <img class="square-group" src="/images/Grey_Square.png" alt="A blank grey sqaure." width="150px"
+                    height="150px">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="image-container">
+                <img class="square-group" src="/images/Grey_Square.png" alt="A blank grey sqaure." width="150px"
+                    height="150px">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="image-container">
+                <img class="square-group" src="/images/Grey_Square.png" alt="A blank grey sqaure." width="150px"
+                    height="150px">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </section>
+    <section class="quote">
+        <p>This is an inspiring quote, or a testimonial from a customer.
+            Maybe it's just filling up space, or maybe people will actaully
+            read it. Who knows? All I know is that it looks nice.
+        </p>
+        <div class="quote-small-text">
             <small>-Thor, God of Thunder</small>
-        </section>
-        <section class="pop-up">
-            <p>
-                <b>Call to action! It's time!</b>
-                Sign up for our product by clicking that button right
-                over there!
-            </p>
+        </div>
+    </section>
+    <section class="pop-up">
+        <p>
+            <b>Call to action! It's time!</b>
+            <br>
+            Sign up for our product by clicking that button right
+            over there!
             <button class="signup-button-two">Sign up</button>
-        </section>
-        <footer class="footer">
-            <p>Copyright &copy; The Odin Project 2021</p>
-        </footer>
+        </p>
+    </section>
+    <footer class="footer">
+        <p>Copyright &copy; The Odin Project 2021</p>
+    </footer>
     </div>
 </body>
 
